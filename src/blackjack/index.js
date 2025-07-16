@@ -1,8 +1,5 @@
 import _ from 'underscore';
-import {crearDeck} from './usecases/crear-deck.js';
-import {pedirCarta} from './usecases/pedir-carta.js';
-import {valorCarta} from './usecases/valor-carta.js';
-
+import { crearDeck, pedirCarta, valorCarta } from './usecases'; 
 /**
  * 2C = Two of Clubs
  * 2D = Two of Diamonds
